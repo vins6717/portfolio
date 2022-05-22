@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0e6dc;
+  align-items: center;
+}
+
+.navbar ul {
+  padding: 0;
+  text-align: center;
+}
+.navlinks li {
+  list-style: none;
+  margin: 15px;
+}
+
+.navlinks li a {
+  color: #303437;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navlinks li {
+    display: inline-block;
+    margin: 15px;
+  }
+}
