@@ -1,11 +1,16 @@
 * {
   margin: 0px;
+  font-size: 62.5%;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
 }
 
 .nav {
   display: flex;
   flex-direction: column;
-  background-color: #f0e6dc;
+  background-color: #f6f6e9;
   align-items: center;
 }
 
@@ -19,8 +24,10 @@
 }
 
 .navlinks li a {
-  color: #303437;
+  color: #291b25;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 600px) {
