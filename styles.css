@@ -134,8 +134,25 @@ html {
 }
 
 .progress {
-  font-size: 2rem;
+  font-size: 1.5rem;
   align-self: center;
+}
+
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 0.5rem;
+  width: 15rem;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #61a6ab;
+  border-radius: 0px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #ccc;
+  border-radius: 0px;
 }
 
 @media screen and (max-width: 720px) {
@@ -144,4 +161,37 @@ html {
     flex-direction: column;
     justify-content: space-evenly;
   }
+}
+
+/**projects section styles**/
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 0%;
+  background-color: #f6b9a1;
+}
+
+.projects-row-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 35rem;
+  margin: 1.5rem;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card-text {
+  font-size: 1.5rem;
+}
+
+.btn {
+  font-size: 2.5rem;
 }
