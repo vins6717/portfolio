@@ -207,6 +207,7 @@ html {
 
 .card-text {
   font-size: 1.5rem;
+  text-align: left;
 }
 
 #card-button-1,
@@ -220,6 +221,11 @@ html {
   border: 1px solid #ed5b35;
   border-radius: 0px;
   padding: 1rem 1.3rem;
+}
+
+.btn-icons {
+  font-size: 1.5rem;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 768px) {
