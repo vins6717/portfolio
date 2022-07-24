@@ -25,6 +25,11 @@ html {
   text-decoration: none;
 }
 
+a:is(:link, :active).active {
+  text-decoration: underline;
+  background-color: #ed5b35;
+}
+
 /**end nav styles**/
 
 .sections-header-text {
@@ -199,6 +204,7 @@ html {
 .card {
   width: 35rem;
   margin: 1.5rem;
+  padding-bottom: 10px;
 }
 
 .card-title {
